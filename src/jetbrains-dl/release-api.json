@@ -1,0 +1,73 @@
+[
+    {
+        "code": "RD",
+        "link": "https://www.jetbrains.com/rider",
+        "releases": [
+            {
+                "date": "2020-11-19",
+                "type": "eap",
+                "downloads": {
+                    "zip": {
+                        "link": "https://download.jetbrains.com/rider/JetBrains.Rider-2020.3-EAP8-203.5981.5.Checked.win.zip",
+                        "size": 992791516,
+                        "checksumLink": "https://download.jetbrains.com/rider/JetBrains.Rider-2020.3-EAP8-203.5981.5.Checked.win.zip.sha256"
+                    },
+                    "linux": {
+                        "link": "https://download.jetbrains.com/rider/JetBrains.Rider-2020.3-EAP8-203.5981.5.Checked.tar.gz",
+                        "size": 908301908,
+                        "checksumLink": "https://download.jetbrains.com/rider/JetBrains.Rider-2020.3-EAP8-203.5981.5.Checked.tar.gz.sha256"
+                    },
+                    "windows": {
+                        "link": "https://download.jetbrains.com/rider/JetBrains.Rider-2020.3-EAP8-203.5981.5.Checked.exe",
+                        "size": 793966552,
+                        "checksumLink": "https://download.jetbrains.com/rider/JetBrains.Rider-2020.3-EAP8-203.5981.5.Checked.exe.sha256"
+                    },
+                    "mac": {
+                        "link": "https://download.jetbrains.com/rider/JetBrains.Rider-2020.3-EAP8-203.5981.5.Checked.dmg",
+                        "size": 901796429,
+                        "checksumLink": "https://download.jetbrains.com/rider/JetBrains.Rider-2020.3-EAP8-203.5981.5.Checked.dmg.sha256"
+                    }
+                },
+                "patches": {
+                    "win": [
+                        {
+                            "fromBuild": "203.5784.25",
+                            "link": "https://download.jetbrains.com/rider/RD-203.5784.25-203.5981.5-patch-jbr11-win.jar",
+                            "size": 76028344,
+                            "checksumLink": "https://download.jetbrains.com/rider/RD-203.5784.25-203.5981.5-patch-jbr11-win.jar.sha256"
+                        }
+                    ],
+                    "mac": [
+                        {
+                            "fromBuild": "203.5784.25",
+                            "link": "https://download.jetbrains.com/rider/RD-203.5784.25-203.5981.5-patch-jbr11-mac.jar",
+                            "size": 75588508,
+                            "checksumLink": "https://download.jetbrains.com/rider/RD-203.5784.25-203.5981.5-patch-jbr11-mac.jar.sha256"
+                        }
+                    ],
+                    "unix": [
+                        {
+                            "fromBuild": "203.5784.25",
+                            "link": "https://download.jetbrains.com/rider/RD-203.5784.25-203.5981.5-patch-jbr11-unix.jar",
+                            "size": 79706947,
+                            "checksumLink": "https://download.jetbrains.com/rider/RD-203.5784.25-203.5981.5-patch-jbr11-unix.jar.sha256"
+                        }
+                    ]
+                },
+                "notesLink": null,
+                "licenseRequired": false,
+                "version": "2020.3-EAP8",
+                "majorVersion": "2020.3",
+                "build": "203.5981.5",
+                "whatsnew": "<div style=\"max-width: 700px\"> \n <p>We’re close to the 2020.3 release, which means we’re concentrating on fixing the last remaining issues. For the full list of issues that were fixed in EAP8, please refer to our <a href=\"https://youtrack.jetbrains.com/issues/RIDER?q=Available%20in:%20%7B2020.3%20EAP8*%7D%20\">public bug tracker</a>.</p> \n</div>",
+                "uninstallFeedbackLinks": {
+                    "zip": "https://www.jetbrains.com/rider/uninstall/?version=RD-2020.3-EAP8",
+                    "linux": "https://www.jetbrains.com/rider/uninstall/?version=RD-2020.3-EAP8",
+                    "windows": "https://www.jetbrains.com/rider/uninstall/?version=RD-2020.3-EAP8",
+                    "mac": "https://www.jetbrains.com/rider/uninstall/?version=RD-2020.3-EAP8"
+                },
+                "printableReleaseType": null
+            }
+        ]
+    }
+]

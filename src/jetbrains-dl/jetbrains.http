@@ -1,0 +1,10 @@
+###
+
+# curl 'https://data.services.jetbrains.com/products?code=RD&release.type=eap%2Crc&fields=distributions%2Clink%2Cname%2Creleases&_=1605926964773' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0' -H 'Accept: application/json, text/javascript, */*; q=0.01' -H 'Accept-Language: zh-CN,en-US;q=0.7,en;q=0.3' --compressed -H 'Origin: https://www.jetbrains.com' -H 'Connection: keep-alive' -H 'Referer: https://www.jetbrains.com/rider/nextversion/' -H 'TE: Trailers'
+GET https://data.services.jetbrains.com/products?code=RD%2cIIU&release.type=eap%2Crc&fields=code&_=1605926964773
+Accept: application/json, text/javascript, */*; q=0.01
+
+###
+
+GET http://localhost:5000/api/latest/products?products=RD,IU&types=eap
+

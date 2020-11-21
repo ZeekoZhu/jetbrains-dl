@@ -1,0 +1,10 @@
+storage: none
+source https://api.nuget.org/v3/index.json
+
+nuget FSharp.SystemTextJson
+nuget Giraffe ~> 5.0 prerelease
+nuget FSharp.Core ~> 5.0
+nuget ply
+nuget SchlenkR.FsHttp
+nuget SharpZipLib
+nuget Tencent.QCloud.Cos.Sdk
