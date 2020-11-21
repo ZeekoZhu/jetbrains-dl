@@ -4,7 +4,7 @@ WORKDIR /builder
 
 COPY ./ ./
 WORKDIR ./src/jetbrains-dl
-RUN dotnet tool restore \
+RUN dotnet tool restore && \
     dotnet publish -c release -o /app -r linux-musl-x64 --self-contained false
 
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
