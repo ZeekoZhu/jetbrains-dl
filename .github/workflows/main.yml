@@ -39,3 +39,4 @@ jobs:
         with:
           tags: hkccr.ccs.tencentyun.com/zeeko/jetbrains-dl:latest
           context: ${{github.workspace}}
+          push: true
