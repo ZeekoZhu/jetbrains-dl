@@ -14,6 +14,7 @@ ProjectSection(SolutionItems) = preProject
 	paket.dependencies = paket.dependencies
 	paket.lock = paket.lock
 	README.md = README.md
+	Dockerfile = Dockerfile
 EndProjectSection
 EndProject
 Global

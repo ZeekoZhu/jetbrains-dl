@@ -3,9 +3,6 @@ module JetBrainsDl.Model
 open System
 open System.IO
 open System.Web
-open COSXML
-open COSXML.Model.Object
-open COSXML.Transfer
 open FsHttp
 open FsHttp.DslCE
 open ICSharpCode.SharpZipLib.Zip

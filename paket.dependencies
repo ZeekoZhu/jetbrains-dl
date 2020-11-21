@@ -7,4 +7,3 @@ nuget FSharp.Core ~> 5.0
 nuget ply
 nuget SchlenkR.FsHttp
 nuget SharpZipLib
-nuget Tencent.QCloud.Cos.Sdk
