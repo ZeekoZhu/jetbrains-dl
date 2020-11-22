@@ -6,5 +6,5 @@ Accept: application/json, text/javascript, */*; q=0.01
 
 ###
 
-GET http://localhost:5000/api/latest/products?products=RD,IU&types=eap
+GET http://localhost:5000/api/latest/products?products=RD&types=release
 
