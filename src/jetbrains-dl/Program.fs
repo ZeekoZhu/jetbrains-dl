@@ -20,7 +20,7 @@ open Microsoft.Extensions.Primitives
 // ---------------------------------
 
 let latestPlugins (model: DownloadPluginsModel) : HttpHandler =
-    fun next ctx ->
+    fun _ ctx ->
         task {
             let! result = getPluginPackage {Products = model.Products; Types = model.Types} model.Plugins
             ctx.Response.ContentType <- "application/zip"
@@ -32,7 +32,7 @@ let latestProducts (model: QueryLatestProductModel) : HttpHandler =
     fun next ctx ->
         task {
             let result = getLatest model
-            return! Successful.OK result next ctx
+            return! json result next ctx
         }
 
 let webApp =
